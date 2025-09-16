@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Product Listing</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="todo.html">To-Do App</a>
+    </nav>
+  </header>
+
+  <section>
+    <label>Category:
+      <select id="filterCategory">
+        <option value="all">All</option>
+        <option value="electronics">Electronics</option>
+        <option value="clothing">Clothing</option>
+      </select>
+    </label>
+    <label>Sort by:
+      <select id="sortOption">
+        <option value="price">Price</option>
+        <option value="rating">Rating</option>
+      </select>
+    </label>
+    <div id="productContainer"></div>
+  </section>
+
+  <footer>© 2025 Vaidehi's Portfolio</footer>
+  <script src="script.js"></script>
+</body>
+</html>
